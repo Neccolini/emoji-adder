@@ -1,3 +1,4 @@
+Download the model from [here](https://drive.google.com/file/d/17tfeVSN5xhwYy-QxzrFRtl8waWJSamPC/view?usp=sharing) and put it under the weights directory.<br>
 pip install pipenv<br>
 pipenv install<br>
 usage: python test.py<br>
