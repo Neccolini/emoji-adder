@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>絵文字</title>
+</head>
+<link rel="stylesheet" href="../static/style.css">
+<body>
+    <div class="content">
+        <header>
+            <h1>emoji-adder</h1>
+
+        </header>
+        <form action="/calc" method="POST">
+            <div class="control">
+                <label for="num">何個の絵文字を表示させたいですか</label>
+                <input type="number" id="num" name="num">
+                <label for="text">絵文字をつけたい文章を入力してください</label>
+                <input type="text" id="text" name="text">
+            </div>
+            <div class="control">
+                <button type="submit">実行</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
